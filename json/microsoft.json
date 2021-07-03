@@ -1,0 +1,34 @@
+{
+    "data" : [
+        {
+            "name" : "Bitonic Point",
+            "url" : "../../dailydose/bitonic-point",
+            "id" : "6kuih7U1gso"
+        },
+        {
+            "name" : "Sort Array 0,1,2",
+            "url" : "../../dailydose/sort-array-0-1-2",
+            "id" : "d4Tw4h5_t-4"
+        },
+        {
+            "name" : "Counting Sort - Strings",
+            "url" : "../../dailydose/counting-sort-strings",
+            "id" : "eHdJoE_UTTw"
+        },
+        {
+            "name" : "Implement strstr",
+            "url" : "../../dailydose/implement-strstr",
+            "id" : "s-F-GtDneow"
+        },
+        {
+            "name" : "Key Pair",
+            "url" : "../../dailydose/key-pair",
+            "id" : "ztoIlS1_gl4"
+        },
+        {
+            "name" : "getMin() - Stack O(1)",
+            "url" : "../../dailydose/getmin-stack-order-1",
+            "id" : "Yd6jEMJSQ8M"
+        }
+    ]
+}

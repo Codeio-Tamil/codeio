@@ -1,0 +1,16 @@
+.card-top {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.bg-green {
+    background: rgb(157, 226, 166);
+}
+
+.lead {
+    font-size: 17px;
+    font-weight: 600;
+}
