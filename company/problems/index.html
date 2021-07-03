@@ -78,7 +78,7 @@
         console.log(c);
         _("ctitle").innerHTML = c.charAt(0).toUpperCase() + c.slice(1);
         $.ajax({
-            url : "https://raw.githubusercontent.com/TrollGeek/troll_geeks/main/json/" + c + ".json",
+            url : "https://raw.githubusercontent.com/Codeio-Tamil/codeio/main/json/" + c + ".json",
             method:"GET",
             success:function(data) {
                 var cdata = JSON.parse(data);
