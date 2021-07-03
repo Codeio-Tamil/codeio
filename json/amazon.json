@@ -69,6 +69,11 @@
             "name" : "Remove Character",
             "url" : "../../dailydose/remove-character",
             "id" : "q40wj-I2WI8"
+        },
+        {
+            "name" : "Replace 0 to 5",
+            "url" : "../../dailydose/replace-0-to-5",
+            "id" : "flFf826w_sc"
         }
     ]
 }
