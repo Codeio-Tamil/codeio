@@ -23,7 +23,7 @@ function search() {
 
     var isFound = false;
 
-    if (isSuccessful) {
+    if (isSuccessful && input != "") {
         var len = cdata.data.length;
         var recommend = '<hr>';
         for (var i=0; i<len; i++) {
