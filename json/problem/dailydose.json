@@ -1,0 +1,136 @@
+{
+    "data" : [
+        {
+            "name" : "Transition Point",
+            "epi" : "Transition Point | Daily Dose - 01 | Interview Questions | Geeks for Geeks | Tamil | code io",
+            "id" : "Rruz25UX46o",
+            "url" : "./transition-point/"
+        },
+        {
+            "name" : "Reverse Words",
+            "epi" : "Accolite Interview Question | Reverse Words | Daily Dose -2 | Tamil | code io",
+            "id" : "glGZMqcSDW0",
+            "url" : "./reverse-words/"
+        },
+        {
+            "name" : "Extra Element",
+            "epi" : "Extra Element | Daily Dose - 3 | Interview Questions | Geeks for Geeks | Tamil | code io",
+            "id" : "UdistmSs9Qk",
+            "url" : "./extra-element/"
+        },
+        {
+            "name" : "Bitonic Point",
+            "epi" : "Bitonic Point | Daily Dose - 4 | Interview Questions - Microsoft | Geeks for Geeks | Tamil | code io",
+            "id" : "6kuih7U1gso",
+            "url" : "./bitonic-point/"
+        },
+        {
+            "name" : "Equilibrium Point",
+            "epi" : "Equilibrium Point | Daily Dose - 5 | Interview Questions | Geeks for Geeks | Tamil | code io",
+            "id" : "6zoyWXVVKP4",
+            "url" : "./equilibrium-point/"
+        },
+        {
+            "name" : "Need some change",
+            "epi" : "Need Some Change | Daily Dose -6 | Interview Questions | Geeks for Geeks| Tamil | code io",
+            "id" : "dm7XQ6BlgOk",
+            "url" : "./need-some-change/"
+        },
+        {
+            "name" : "Sort Array 0,1,2",
+            "epi" : "Accolite Coding Question | Sort Array 0,1,2s | Daily Dose -7 | Tamil | code io",
+            "id" : "d4Tw4h5_t-4",
+            "url" : "./sort-array-0-1-2/"
+        },
+        {
+            "name" : "Reverse K element in Queue",
+            "epi" : "Amazon Coding Question | Reverse k elements in Queue | Daily Dose -8 | Tamil | code io",
+            "id" : "QP8qz5qG-Eg",
+            "url" : "./reverse-k-elements-in-queue/"
+        },
+        {
+            "name" : "Snake Pattern",
+            "epi" : "Zoho Coding Question | Snake Pattern | Daily Dose-9 | Tamil | code io",
+            "id" : "IcbcPOVG6-c",
+            "url" : "./snake-pattern/"
+        },
+        {
+            "name" : "Counting Sort - Strings",
+            "epi" : "Microsoft - CISCO Interview Question | Counting Sort - Strings | Daily Dose-10 | Tamil | code io",
+            "id" : "eHdJoE_UTTw",
+            "url" : "./counting-sort-strings/"
+        },
+        {
+            "name" : "Minimum Difference Pair",
+            "epi" : "Amazon Coding Question | Minimum Difference Pair | Daily Dose-11| Tamil | code io",
+            "id" : "qjt5r_P348M",
+            "url" : "./minimum-difference-pair/"
+        },
+        {
+            "name" : "Count Pair Sum",
+            "epi" : "Amazon Coding Question | Count Pair Sum | Daily Dose-12 | Tamil | code io",
+            "id" : "ULuAYHa3aL8",
+            "url" : "./count-pair-sum/"
+        },
+        {
+            "name" : "Upper and Lower Triangular Sum",
+            "epi" : "Aspire Systems Coding Question | Upper and Lower Triangular Sum | Daily Dose-13 | Tamil | code io",
+            "id" : "0UMDNWj7Tzg",
+            "url" : "./upper-and-lower-triangular-sum/"
+        },
+        {
+            "name" : "Tripletes with Zero Sum",
+            "epi" : "Triplets with Zero Sum | Google -Amazon-Microsoft Coding Question | Daily Dose-14 | Tamil | code io",
+            "id" : "eBD3De_tbYI",
+            "url" : "./triplets-with-zero-sum/"
+        },
+        {
+            "name" : "Check String Rotation",
+            "epi" : "Accolite Coding Question | Check String Rotation | Daily Dose-15 | Tamil | code io",
+            "id" : "1mn4lNeS8PY",
+            "url" : "./check-string-rotation/"
+        },
+        {
+            "name" : "Implement strstr",
+            "epi" : "Zoho - Amazon Coding Question | Implement strstr | Daily Dose-16 | Tamil | code io",
+            "id" : "s-F-GtDneow",
+            "url" : "./implement-strstr/"
+        },
+        {
+            "name" : "Key Pair",
+            "epi" : "Zoho - Wipro - Accolite Coding Question | Key Pair | Daily Dose-17 | Tamil | code io",
+            "id" : "ztoIlS1_gl4",
+            "url" : "./key-pair/"
+        },
+        {
+            "name" : "Front-Back Transformation",
+            "epi" : "Wipro Coding Question | Front-Back Transformation | Daily Dose-18 | Tamil | code io",
+            "id" : "JeTcW73GPmY",
+            "url" : "./front-back-transformation/"
+        },
+        {
+            "name" : "getMin() - Stack O(1)",
+            "epi" : "Walmart - Amazon Interview Question | getMin() - Stack O(1) | Daily Dose-19 | Tamil | code io",
+            "id" : "Yd6jEMJSQ8M",
+            "url" : "./getmin-stack-order-1/"
+        },
+        {
+            "name" : "Remove Characters",
+            "epi" : "ZOHO Interview Question | Remove Character | Daily Dose-20 | Tamil | code io",
+            "id" : "q40wj-I2WI8",
+            "url" : "./remove-character/"
+        },
+        {
+            "name" : "Replace 0 to 5",
+            "epi" : "Zoho Interview Question | Replace 0 to 5 | Daily Dose-21 | Tamil | code io",
+            "id" : "flFf826w_sc",
+            "url" : "./replace-0-to-5/"
+        },
+        {
+            "name" : "Multiply two Polynomials",
+            "epi" : "Zoho Interview Question | Multiply Poly. | Daily Dose-21 | Tamil | code io",
+            "id" : "UZHYTQBGn2k",
+            "url" : "./multiply-two-polynomials/"
+        }
+    ]
+}
