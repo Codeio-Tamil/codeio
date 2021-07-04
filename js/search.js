@@ -23,21 +23,31 @@ function search() {
 
     var isFound = false;
 
-    if (isSuccessful && input != "") {
+    if (isSuccessful && input != " ") {
         var len = cdata.data.length;
         var recommend = '<hr>';
+        var counter = 0;
         for (var i=0; i<len; i++) {
             var fetchText = cdata.data[i].name;
             fetchText = fetchText.toLowerCase();
             input = input.toLowerCase();
             if (fetchText.includes(input)) {
                 isFound = true;
-                recommend += '<a class="card"><div class="row"><div class="col-3"><img src="https://i1.ytimg.com/vi/' + cdata.data[i].id +'/mqdefault.jpg" width="100" height="60"></div><div class="col-9"> ' + cdata.data[i].name + '</div></div></a>';
+                counter++
+                recommend += '<a class="card"><div class="form-inline"><div><img src="https://i1.ytimg.com/vi/' + cdata.data[i].id +'/mqdefault.jpg" width="100" height="60"></div><div style="margin-left: 5px;"> ' + cdata.data[i].name + '</div></div></a>';
+            }
+
+            if (counter == 4) {
+                break;
             }
         } 
 
         if (isFound) {
             _("result").innerHTML = recommend;
+        }
+
+        if (input == " " || !isFound) {
+            _("result").innerHTML = "";
         }
 
     } else {
