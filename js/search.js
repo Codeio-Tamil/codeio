@@ -30,8 +30,7 @@ function search() {
             var fetchText = cdata.data[i].name;
             fetchText = fetchText.toLowerCase();
             input = input.toLowerCase();
-            if (cdata.data[i].name.search(input) >= 0) {
-                console.log("found");
+            if (fetchText.includes(input)) {
                 isFound = true;
                 recommend += '<a class="card"><div class="row"><div class="col-3"><img src="https://i1.ytimg.com/vi/' + cdata.data[i].id +'/mqdefault.jpg" width="100" height="60"></div><div class="col-9"> ' + cdata.data[i].name + '</div></div></a>';
             }
