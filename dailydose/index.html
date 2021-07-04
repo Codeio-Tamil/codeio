@@ -22,6 +22,7 @@
         <script src="../js/jquery.min.js"></script>
         <script src="../js/blocker.js"></script>
         <script src="../js/navigator.js"></script>
+        <script src="../js/search.js"></script>
     </head>
     <body>
         <div id="drawer" class="sidenav troll-geek-bg shadow">
@@ -74,8 +75,11 @@
                         </div>
                         <div class="modal-body">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Search Problem" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input type="text" id="input" class="form-control" oninput="search()" placeholder="Search Problem" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                 <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                            </div>
+                            <div id="result">
+
                             </div>
                         </div>
                     </div>
