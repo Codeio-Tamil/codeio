@@ -1,0 +1,159 @@
+{
+    "data" : [
+        {
+            "name" : "Accolite",
+            "img" : "../images/mnc/accolite.jpg",
+            "url" : "./problems/?c=accolite"
+        },
+        {
+            "name" : "Adobe",
+            "img" : "../images/mnc/Adobe_logo.png",
+            "url" : "./problems/?c=adobe"
+        },
+        {
+            "name" : "Amazon",
+            "img" : "../images/mnc/Amazon-logo.png",
+            "url" : "./problems/?c=amazon"
+        },
+        {
+            "name" : "Carwale",
+            "img" : "../images/mnc/carwale.jpg",
+            "url" : "./problems/?c=carwale"
+        },
+        {
+            "name" : "Cisco",
+            "img" : "../images/mnc/CISCO.jpg",
+            "url" : "./problems/?c=cisco"
+        },
+        {
+            "name" : "D E Shaw & co",
+            "img" : "../images/mnc/deshaw.png",
+            "url" : "./problems/?c=deshaw"
+        },
+        {
+            "name" : "Facebook",
+            "img" : "../images/mnc/facebook.png",
+            "url" : "./problems/?c=facebook"
+        },
+        {
+            "name" : "Factset",
+            "img" : "../images/mnc/factset.png",
+            "url" : "./problems/?c=factset"
+        },
+        {
+            "name" : "Flipkart",
+            "img" : "../images/mnc/flipkart.jpg",
+            "url" : "./problems/?c=flipkart"
+        },
+        {
+            "name" : "Goldman Sachs",
+            "img" : "../images/mnc/goldmansachs.jpg",
+            "url" : "./problems/?c=goldmansachs"
+        },
+        {
+            "name" : "Google",
+            "img" : "../images/mnc/google.jpg",
+            "url" : "./problems/?c=googl"
+        },
+        {
+            "name" : "Grey Orange",
+            "img" : "../images/mnc/greyorange.jpeg",
+            "url" : "./problems/?c=greyorange"
+        },
+        {
+            "name" : "Hike",
+            "img" : "../images/mnc/hike.png",
+            "url" : "./problems/?c=hike"
+        },
+        {
+            "name" : "Kuliza",
+            "img" : "../images/mnc/kuliza.png",
+            "url" : "./problems/?c=kuliza"
+        },
+        {
+            "name" : "Make My Trip",
+            "img" : "../images/mnc/makemytrip.jpg",
+            "url" : "./problems/?c=makemytrip"
+        },
+        {
+            "name" : "MAQ Software",
+            "img" : "../images/mnc/MAQ-Software.png",
+            "url" : "./problems/?c=maqsoftware"
+        },
+        {
+            "name" : "Microsoft",
+            "img" : "../images/mnc/microsoft.png",
+            "url" : "./problems/?c=microsoft"
+        },
+        {
+            "name" : "Morgan Stanley",
+            "img" : "../images/mnc/morganstanley.png",
+            "url" : "./problems/?c=morganstanley"
+        },
+        {
+            "name" : "OLA Cabs",
+            "img" : "../images/mnc/ola-cabs.png",
+            "url" : "./problems/?c=olacabs"
+        },
+        {
+            "name" : "One 97",
+            "img" : "../images/mnc/one97.png",
+            "url" : "./problems/?c=one97"
+        },
+        {
+            "name" : "OYO Rooms",
+            "img" : "../images/mnc/oyorooms.jpg",
+            "url" : "./problems/?c=oyorooms"
+        },
+        {
+            "name" : "Paytm",
+            "img" : "../images/mnc/paytm-logo.jpg",
+            "url" : "./problems/?c=paytm"
+        },
+        {
+            "name" : "Qualcomm",
+            "img" : "../images/mnc/qualcomm-logo.jpg",
+            "url" : "./problems/?c=qualcomm"
+        },
+        {
+            "name" : "Samsung",
+            "img" : "../images/mnc/samsung_logo.png",
+            "url" : "./problems/?c=samsung"
+        },
+        {
+            "name" : "Sapient",
+            "img" : "../images/mnc/sapient.jpg",
+            "url" : "./problems/?c=sapient"
+        },
+        {
+            "name" : "SAP Labs",
+            "img" : "../images/mnc/saplabs.png",
+            "url" : "./problems/?c=saplabs"
+        },
+        {
+            "name" : "Snapdeal",
+            "img" : "../images/mnc/snapdeal-logo.png",
+            "url" : "./problems/?c=snapdeal"
+        },
+        {
+            "name" : "Walmart",
+            "img" : "../images/mnc/wal-mart logo.jpg",
+            "url" : "./problems/?c=walmart"
+        },
+        {
+            "name" : "Wipro",
+            "img" : "../images/mnc/Wipro_Limited_Logo.jpg",
+            "url" : "./problems/?c=wipro"
+        },
+        {
+            "name" : "Yatra",
+            "img" : "../images/mnc/Yatra.jpg",
+            "url" : "./problems/?c=yatra"
+        },
+        {
+            "name" : "Zoho",
+            "img" : "../images/mnc/zoho.png",
+            "url" : "./problems/?c=zoho"
+        }
+    ]
+}

@@ -59,7 +59,7 @@
             <br>
             <div class="container">
                 <br>
-                <div class="row">
+                <div class="row" id="clist">
                     <div class="col-md-3">
                         <a class="card shadow" href="./problems/?c=accolite">
                             <img width="100%" class="img-thumbnail border-0" height="auto" src="../images/mnc/accolite.jpg"> </img>
@@ -374,4 +374,29 @@
         
 
     </style>
+    <script>
+
+        function _(el) {
+            return document.getElementById(el);
+        }
+
+        $.ajax({
+            url : "https://raw.githubusercontent.com/Codeio-Tamil/codeio/main/json/amazon.json",
+            method:"GET",
+            success:function(data) {
+                var cdata = JSON.parse(data);
+                console.log(cdata);
+                var len = cdata.data.length;
+
+                var lister = '';
+                for (var i = 0; i < len; i++) {
+                    lister += '<div class="col-md-3"><a class="card shadow" href='+ cdata.data[i].url +'><img width="100%" class="img-thumbnail" height="auto" src="https://i1.ytimg.com/vi/' + cdata.data[i].id + '/mqdefault.jpg"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].name + '</div> </a></div>';
+                }
+                _("clist").innerHTML = lister;
+            }, error:function() {
+                console.log("error");
+            }
+        });
+        
+    </script>
 </html>
