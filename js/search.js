@@ -44,9 +44,11 @@ function search() {
 
         if (isFound) {
             _("result").innerHTML = recommend;
+        } else {
+            _("result").innerHTML = '<img src="../images/no-result-found.png">';
         }
 
-        if (input == " " || !isFound) {
+        if (input == " ") {
             _("result").innerHTML = "";
         }
 
