@@ -131,6 +131,12 @@
             "epi" : "Zoho Interview Question | Multiply Poly. | Daily Dose-21 | Tamil | code io",
             "id" : "UZHYTQBGn2k",
             "url" : "./multiply-two-polynomials/"
+        },
+        {
+            "name" : "geek-onacci",
+            "epi" : "Zoho Interview Question | Geek-onacci | Daily Dose-23 | Tamil | code io",
+            "id" : "oeCc23DJgzg",
+            "url" : "./geek-onacci"
         }
     ]
 }

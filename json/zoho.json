@@ -24,6 +24,11 @@
             "name" : "Replace 0 to 5",
             "url" : "../../dailydose/replace-0-to-5",
             "id" : "flFf826w_sc"
+        },
+        {
+            "name" : "Geek-onacci",
+            "url" : "../../dailydose/geek-onacci",
+            "id" : "oeCc23DJgzg"
         }
     ]
 }
