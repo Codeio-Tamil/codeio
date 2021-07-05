@@ -27,22 +27,27 @@
         <script src="../../js/back.js"></script>
         <script src="../../js/navigator.js"></script>
 
-
-        <style>
-            @media (max-width: 991.98px) {
-
-                .screen-big {
-                    display: none;
-                }
-
-                .screen-small {
-                    display: block;
-                }
-
-            }
-        </style>
-
     </head>
+
+    <style>
+
+        .mobile {
+            display: none;
+        }
+
+        @media (max-width: 991.98px) {
+
+            .laptop {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+
+        }
+    </style>
+
     <body>
         
         <div id="main" class="main">
@@ -67,11 +72,11 @@
                     </div>
                 </div>
                 <div class="card shadow">
-                    <div class="embed-responsive embed-responsive-16by9 screen-big" style="display: block;">
+                    <div class="embed-responsive embed-responsive-16by9 laptop">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rruz25UX46o?autoplay=1" allowfullscreen></iframe>
                     </div>
-                    <a href="https://www.youtube.com/watch?v=Rruz25UX46o screen-small" style="display: none;">
-                        <img width="100%" class="img-thumbnail border-0" height="auto" src="../../images/code.io-2.png"> </img>
+                    <a href="https://www.youtube.com/watch?v=Rruz25UX46o" class="mobile">
+                        <img width="100%" class="img-thumbnail border-0" height="auto" src="https://i1.ytimg.com/vi/Rruz25UX46o/mqdefault.jpg"> </img>
                     </a>
                 </div>
                 <br>
