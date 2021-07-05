@@ -29,11 +29,8 @@ $(document).ready(function() {
             function(data) {
                 var output;
                 $.each(data.items, function(i, item) {
-                    console.log(item);
                     videoTitle = item.snippet.title;
                     videoId = item.snippet.resourceId.videoId;
-                    console.log(videoId);
-                    console.log(videoTitle);
                     //output = '<div class="col-md-3"> <div class="card shadow"> <img width="100%" class="img-thumbnail" height="auto" src="https://i1.ytimg.com/vi/' + videoId + '/mqdefault.jpg"> </img> <div class="card-body"> ' + videoTitle + '</div>  </div> </div>';
                     output = '<div class="col-md-3"><a href="https://www.youtube.com/watch?v=' + videoId + '" class="card shadow border-0 text-secondary text-center" style="text-decoration: none;"><img width="100%" class="img-thumbnail" height="auto" src="https://i1.ytimg.com/vi/' + videoId + '/mqdefault.jpg"> </img> <div class="card-body"> ' + videoTitle + '</div> </a></div>';
                     $('#results').append(output);
