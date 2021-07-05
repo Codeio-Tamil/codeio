@@ -36,13 +36,25 @@
             position: relative;
         }
 
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
         .cover {
             position: absolute;
             top: 0;
+            bottom: 0;
+            right: 0;
             left: 0;
-            margin-top: 20%;
-            margin-left: 40%;
-            opacity: 0.9;
+        }
+
+        .cover-me {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
     </style>
@@ -75,10 +87,12 @@
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rruz25UX46o?autoplay=1" allowfullscreen></iframe>
                     </div>
                     <a href="https://www.youtube.com/watch?v=Rruz25UX46o " class="mobile covered">
-                        <div href="https://www.youtube.com/watch?v=Rruz25UX46o " class="mobile">
+                        <div href="https://www.youtube.com/watch?v=Rruz25UX46o " class="mobile image">
                             <img width="100%" class="img-thumbnail border-0" height="auto" src="https://i1.ytimg.com/vi/Rruz25UX46o/mqdefault.jpg"> </img>
                         </div>
-                        <img class="cover" width="75" height="75" src="../../images/youtube.png"> </img>
+                        <div class="cover">
+                            <img class="cover-me" width="75" height="75" src="../../images/youtube.png"> </img>
+                        </div>
                     </a>
                 </div>
                 <br>
