@@ -34,7 +34,7 @@ function search() {
             if (fetchText.includes(input)) {
                 isFound = true;
                 counter++
-                recommend += '<a class="card"><div class="form-inline"><div><img src="https://i1.ytimg.com/vi/' + cdata.data[i].id +'/mqdefault.jpg" width="100" height="60"></div><div style="margin-left: 5px;"> ' + cdata.data[i].name + '</div></div></a>';
+                recommend += '<a class="card" href="' + cdata.data[i].url +'"><div class="form-inline"><div><img src="https://i1.ytimg.com/vi/' + cdata.data[i].id +'/mqdefault.jpg" width="100" height="60"></div><div style="margin-left: 5px;"> ' + cdata.data[i].name + '</div></div></a>';
             }
 
             if (counter == 4) {
