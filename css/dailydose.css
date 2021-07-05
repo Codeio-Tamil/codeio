@@ -1,0 +1,15 @@
+.mobile {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+
+    .laptop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
