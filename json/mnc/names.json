@@ -16,6 +16,11 @@
             "url" : "./problems/?c=amazon"
         },
         {
+            "name" : "Aspire Systems",
+            "img" : "../images/mnc/aspire-systems.png",
+            "url" : "./problems/?c=aspire"
+        },
+        {
             "name" : "Carwale",
             "img" : "../images/mnc/carwale.jpg",
             "url" : "./problems/?c=carwale"
@@ -134,6 +139,11 @@
             "name" : "Snapdeal",
             "img" : "../images/mnc/snapdeal-logo.png",
             "url" : "./problems/?c=snapdeal"
+        },
+        {
+            "name" : "TCS",
+            "img" : "../images/mnc/tcs.jpg",
+            "url" : "./problems/?c=tcs"
         },
         {
             "name" : "Walmart",
