@@ -137,6 +137,12 @@
             "epi" : "Zoho Interview Question | Geek-onacci | Daily Dose-23 | Tamil | code io",
             "id" : "oeCc23DJgzg",
             "url" : "./geek-onacci"
+        },
+        {
+            "name" : "Super ASCII Checker",
+            "epi" : "TCS Coding Question | Super ASCII Checker | Daily Dose-24 | Tamil | code io",
+            "id" : "mIz31RctUYM",
+            "url" : "./super-ascii-checker"
         }
     ]
 }
