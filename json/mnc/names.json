@@ -58,7 +58,7 @@
         {
             "name" : "Google",
             "img" : "../images/mnc/google.jpg",
-            "url" : "./problems/?c=googl"
+            "url" : "./problems/?c=google"
         },
         {
             "name" : "Grey Orange",
