@@ -96,12 +96,30 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+queue<int> modifyQueue(queue<int> q, int k) {
+    int len = q.size();
+    
+    stack <int> stk;
+    
+    for(int i=0; i<k;i++)
+    {
+        stk.push(q.front());
+        q.pop();
+    }
+    
+    queue<int> r;
+    for(int i=0;i<k; i++)
+    {
+        r.push(stk.top());
+        stk.pop();
+    }
+    
+    for(int j=0; j<len-k;j++)
+    {
+        r.push(q.front());
+        q.pop();
+    }
+    return r;
 }
 </textarea>
                 

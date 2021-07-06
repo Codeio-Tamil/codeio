@@ -98,12 +98,22 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+char* countSort(char arr[]) {
+    int count[26] = {0};
+        
+    for(int i=0; arr[i] != '\0'; i++)
+    {
+        int temp = (int)arr[i] -97;
+        count[temp]++;
+    }
+    
+    string ans="";
+    for(int i=0; i<26; i++)
+    {
+        for(int j=0;j<count[i];j++)
+            ans += (char)i+97;
+    }
+    return ans;
 }
 </textarea>
                 

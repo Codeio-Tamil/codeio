@@ -95,12 +95,30 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+int* sumTriangles(int n, int matrix[][n]) {
+    int usum= 0;
+    int lsum =0;
+    
+    for(int i=0;i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(i==j)
+            {
+                usum += matrix[i][j];
+                lsum += matrix[i][j];
+            }
+            else if(i<j)
+                usum += matrix[i][j];
+            else
+                lsum += matrix[i][j];
+        }
+    }
+    
+    vector <int> ans;
+    ans.push_back(usum);
+    ans.push_back(lsum);
+    return ans;
 }
 </textarea>
                 

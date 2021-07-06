@@ -111,12 +111,29 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+void sort012(int a[], int n) {
+    int c0 = 0;
+    int c1 = 0;
+    int c2 = 0;
+    
+    for(int i=0;i <n; i++)
+    {
+        if(a[i] == 0)
+            c0++;
+        else if(a[i] == 1)
+            c1++;
+        else
+            c2++;
+    }
+    
+    for(int j =0; j<c0; j++)
+        a[j] = 0;
+    
+    for(int j = c0; j<c0 +c1; j++)
+        a[j] = 1;
+    
+    for (int j=c0+c1; j<n; j++)
+        a[j] = 2;
 }
 </textarea>
                 

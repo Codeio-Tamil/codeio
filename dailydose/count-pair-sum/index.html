@@ -98,12 +98,25 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+int countPairs(int arr1[], int arr2[],  int m, int n, int x) {
+    int pairs =0;
+    int i = 0;
+    int j = n-1;
+    
+    while(i<m && j>=0)
+    {
+        if(arr1[i]+arr2[j] == x)
+        {
+            pairs++;
+            i++;
+            j--;
+        }
+        else if(arr1[i]+arr2[j] < x)
+            i++;
+        else
+            j--;
+    }
+    return pairs;
 }
 </textarea>
                 

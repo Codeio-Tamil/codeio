@@ -97,12 +97,22 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+int findMaximum(int arr[], int n) {
+    int beg =0;
+    int end = n-1;
+    int mid;
+    
+    while(beg<=end)
+    {
+        mid = (beg+end)/2;
+        if (arr[mid-1]<arr[mid] && arr[mid]>arr[mid+1])
+        return arr[mid];
+    
+        if (arr[mid]<arr[mid+1])
+            beg = mid+1;
+        else
+            end = mid -1;
+    }
 }
 </textarea>
                 

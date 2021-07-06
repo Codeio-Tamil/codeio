@@ -97,12 +97,23 @@
                 <br>
                 <h5>Code</h5>
 <textarea class="form-control" id="exampleTextarea">
-#include<stdio.h>
-int main() {
-    int n;
-    cin>>n;
-    cout<<n;
-    return 0;
+int equilibriumPoint(long long a[], int n) {
+    int lsum =0;
+    int rsum =0;
+    int eqpoint;
+    
+    for(int i=0; i<n; i++)
+        rsum = rsum + a[i];
+    
+    for(int j= 0; j<n; j++)
+    {
+        rsum = rsum - a[j];
+        if(lsum == rsum)
+            return j+1;
+        
+        lsum = lsum+a[j];
+    }
+    return -1;
 }
 </textarea>
                 
