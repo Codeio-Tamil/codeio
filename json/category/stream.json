@@ -1,5 +1,5 @@
 {
-    "data" : [
+    "data2" : [
         {
             "name" : "Arrays",
             "img" : "../images/streams/code.io-2.png",
@@ -9,6 +9,63 @@
             "name" : "Strings",
             "img" : "../images/streams/code.io-2.png",
             "src" : "strings"
+        }
+    ],
+    "data" : [
+        {
+            "name" : "Data Structures",
+            "segment" : [
+                {
+                    "name" : "Arrays",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "arrays"
+                },
+                {
+                    "name" : "Strings",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "strings"
+                },
+                {
+                    "name" : "Stack",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "stack"
+                },
+                {
+                    "name" : "Queue",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "queue"
+                },
+                {
+                    "name" : "Hash",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "hash"
+                },
+                {
+                    "name" : "Matrix",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "matrix"
+                }
+            ]
+        },
+        {
+            "name" : "Algorithms",
+            "segment" : [
+                {
+                    "name" : "Searching",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "searching"
+                },
+                {
+                    "name" : "Sorting",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "sorting"
+                },
+                {
+                    "name" : "Dynamic Programming",
+                    "img" : "../images/streams/code.io-2.png",
+                    "src" : "dynamicprogramming"
+                }
+            ]
         }
     ]
 }

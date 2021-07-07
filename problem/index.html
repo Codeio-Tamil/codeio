@@ -194,7 +194,7 @@
 
                 var lister = '';
                 for (var i = 0; i < len; i++) {
-                    lister += '<div class="col-md-3"><a class="card shadow" href="./category/?c='+ cdata.data[i].src +'"><img width="100%" class="img-thumbnail" height="auto" src="' + cdata.data[i].img + '"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].name + '</div> </a></div>';
+                    console.log(cdata.data[i].name);
                 }
                 _("clist").innerHTML = lister;
             }, error:function() {
