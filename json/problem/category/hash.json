@@ -1,0 +1,25 @@
+{
+    "cname" : "Hash",
+    "data" : [
+        {
+            "name" : "Count Pair Sum",
+            "id" : "ULuAYHa3aL8",
+            "url" : "../../dailydose/count-pair-sum/"
+        },
+        {
+            "name" : "Triplets with Zero Sum",
+            "id" : "eBD3De_tbYI",
+            "url" : "../../dailydose/triplets-with-zero-sum/"
+        },
+        {
+            "name" : "Key Pair",
+            "id" : "ztoIlS1_gl4",
+            "url" : "../../dailydose/key-pair/"
+        },
+        {
+            "name" : "2nd Maximum String",
+            "id" : "43O00J7lsxU",
+            "url" : "../../dailydose/super-ascii-checker"
+        }
+    ]
+}

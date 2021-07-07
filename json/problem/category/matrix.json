@@ -1,0 +1,15 @@
+{
+    "cname" : "Matrix",
+    "data" : [
+        {
+            "name" : "Snake Pattern",
+            "id" : "IcbcPOVG6-c",
+            "url" : "../../dailydose/snake-pattern/"
+        },
+        {
+            "name" : "Upper and Lower Triangular Sum",
+            "id" : "0UMDNWj7Tzg",
+            "url" : "../../dailydose/upper-and-lower-triangular-sum/"
+        }
+    ]
+}

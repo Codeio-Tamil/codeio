@@ -1,0 +1,25 @@
+{
+    "cname" : "Searching",
+    "data" : [
+        {
+            "name" : "Transition Point",
+            "id" : "Rruz25UX46o",
+            "url" : "../../dailydose/transition-point/"
+        },
+        {
+            "name" : "Extra Element",
+            "id" : "UdistmSs9Qk",
+            "url" : "../../dailydose/extra-element/"
+        },
+        {
+            "name" : "Bitonic Point",
+            "id" : "6kuih7U1gso",
+            "url" : "../../dailydose/bitonic-point/"
+        },
+        {
+            "name" : "Triplets with Zero Sum",
+            "id" : "eBD3De_tbYI",
+            "url" : "../../dailydose/triplets-with-zero-sum/"
+        }
+    ]
+}

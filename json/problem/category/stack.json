@@ -1,0 +1,20 @@
+{
+    "cname" : "Stack",
+    "data" : [
+        {
+            "name" : "Reverse Words",
+            "id" : "glGZMqcSDW0",
+            "url" : "../../dailydose/reverse-words/"
+        },
+        {
+            "name" : "Reverse k elements in Queue",
+            "id" : "QP8qz5qG-Eg",
+            "url" : "../../dailydose/reverse-k-elements-in-queue/"
+        },
+        {
+            "name" : "getMin() - Stack O(1)",
+            "id" : "Yd6jEMJSQ8M",
+            "url" : "../../dailydose/getmin-stack-order-1/"
+        }
+    ]
+}
