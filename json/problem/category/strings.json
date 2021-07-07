@@ -1,4 +1,5 @@
 {
+    "cname" : "Strings",
     "data" : [
         {
             "name" : "Reverse Words",

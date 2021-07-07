@@ -85,7 +85,7 @@
                 var cdata = JSON.parse(data);
                 console.log(cdata);
                 var len = cdata.data.length;
-                _("ctitle").innerHTML = cdata.name;
+                _("ctitle").innerHTML = cdata.cname;
                 var lister = '';
                 for (var i = 0; i < len; i++) {
                     lister += '<div class="col-md-3"><a class="card shadow" href='+ cdata.data[i].url +'><img width="100%" class="img-thumbnail" height="auto" src="https://i1.ytimg.com/vi/' + cdata.data[i].id + '/mqdefault.jpg"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].name + '</div> </a></div>';
