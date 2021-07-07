@@ -194,7 +194,12 @@
 
                 var lister = '';
                 for (var i = 0; i < len; i++) {
-                    console.log(cdata.data[i].name);
+                    lister += '<br><br><h4>' + cdata.data[i].name + '</h4><hr>';
+                    var sublen = cdata.data[i].segment.length;
+                    for (var j = 0; j < sublen; j++) {
+                        lister += '<div class="col-md-3"><a class="card shadow" href="./category/?c='+ cdata.data[i].segment[j].src +'"><img width="100%" class="img-thumbnail" height="auto" src="' + cdata.data[i].segment[j].img + '"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].segment[j].name + '</div> </a></div>';
+                    }
+                    lister += '<br><br>';
                 }
                 _("clist").innerHTML = lister;
             }, error:function() {
