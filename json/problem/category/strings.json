@@ -3,37 +3,37 @@
         {
             "name" : "Reverse Words",
             "id" : "glGZMqcSDW0",
-            "url" : "../../../dailydose/reverse-words/"
+            "url" : "../../dailydose/reverse-words/"
         },
         {
             "name" : "Check String Rotation",
-            "url" : "../../../dailydose/check-string-rotation/",
+            "url" : "../../dailydose/check-string-rotation/",
             "id" : "1mn4lNeS8PY"
         },
         {
             "name" : "Implement strstr",
             "id" : "s-F-GtDneow",
-            "url" : "../../../dailydose/implement-strstr/"
+            "url" : "../../dailydose/implement-strstr/"
         },
         {
             "name" : "Front-Back Transformation",
             "id" : "JeTcW73GPmY",
-            "url" : "../../../dailydose/front-back-transformation/"
+            "url" : "../../dailydose/front-back-transformation/"
         },
         {
             "name" : "Remove Character",
             "id" : "q40wj-I2WI8",
-            "url" : "../../../dailydose/remove-character/"
+            "url" : "../../dailydose/remove-character/"
         },
         {
             "name" : "Super ASCII Checker",
             "id" : "mIz31RctUYM",
-            "url" : "../../../dailydose/super-ascii-checke"
+            "url" : "../../dailydose/super-ascii-checke"
         },
         {
             "name" : "2nd Maximum String",
             "id" : "43O00J7lsxU",
-            "url" : "../../../dailydose/super-ascii-checker"
+            "url" : "../../dailydose/super-ascii-checker"
         }
     ]
 }

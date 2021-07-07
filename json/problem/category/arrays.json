@@ -3,47 +3,47 @@
         {
             "name" : "Transition Point",
             "id" : "Rruz25UX46o",
-            "url" : "../../../dailydose/transition-point/"
+            "url" : "../../dailydose/transition-point/"
         },
         {
             "name" : "Extra Element",
             "id" : "UdistmSs9Qk",
-            "url" : "../../../dailydose/extra-element/"
+            "url" : "../../dailydose/extra-element/"
         },
         {
             "name" : "Bitonic Point",
             "id" : "6kuih7U1gso",
-            "url" : "../../../dailydose/bitonic-point/"
+            "url" : "../../dailydose/bitonic-point/"
         },
         {
             "name" : "Equilibrium Point",
             "id" : "6zoyWXVVKP4",
-            "url" : "../../../dailydose/equilibrium-point/"
+            "url" : "../../dailydose/equilibrium-point/"
         },
         {
             "name" : "Need Some Change",
             "id" : "dm7XQ6BlgOk",
-            "url" : "../../../dailydose/need-some-change/"
+            "url" : "../../dailydose/need-some-change/"
         },
         {
             "name" : "Sort Array 0,1,2",
             "id" : "d4Tw4h5_t-4",
-            "url" : "../../../dailydose/sort-array-0-1-2/"
+            "url" : "../../dailydose/sort-array-0-1-2/"
         },
         {
             "name" : "Count Pair Sum",
             "id" : "ULuAYHa3aL8",
-            "url" : "../../../dailydose/count-pair-sum/"
+            "url" : "../../dailydose/count-pair-sum/"
         },
         {
             "name" : "Triplets with Zero Sum",
             "id" : "eBD3De_tbYI",
-            "url" : "../../../dailydose/triplets-with-zero-sum/"
+            "url" : "../../dailydose/triplets-with-zero-sum/"
         },
         {
             "name" : "Key Pair",
             "id" : "ztoIlS1_gl4",
-            "url" : "../../../dailydose/key-pair/"
+            "url" : "../../dailydose/key-pair/"
         }
     ]
 }
