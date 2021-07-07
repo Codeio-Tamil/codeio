@@ -3,12 +3,12 @@
         {
             "name" : "Arrays",
             "img" : "../images/streams/code.io-2.png",
-            "src" : "array"
+            "src" : "arrays"
         },
         {
             "name" : "Strings",
             "img" : "../images/streams/code.io-2.png",
-            "src" : "string"
+            "src" : "strings"
         }
     ]
 }
