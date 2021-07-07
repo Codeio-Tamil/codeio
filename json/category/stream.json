@@ -1,16 +1,4 @@
 {
-    "data2" : [
-        {
-            "name" : "Arrays",
-            "img" : "../images/streams/code.io-2.png",
-            "src" : "arrays"
-        },
-        {
-            "name" : "Strings",
-            "img" : "../images/streams/code.io-2.png",
-            "src" : "strings"
-        }
-    ],
     "data" : [
         {
             "name" : "Data Structures",
