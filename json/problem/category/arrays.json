@@ -45,6 +45,11 @@
             "name" : "Key Pair",
             "id" : "ztoIlS1_gl4",
             "url" : "../../dailydose/key-pair/"
+        },
+        {
+            "name" : "Half Ascending Half Decending, Swap without Temp",
+            "id" : "yvLxgSDsMNg",
+            "url" : "../../dailydose/half-ascending-half-decending-swap-withour-temp"
         }
     ]
 }

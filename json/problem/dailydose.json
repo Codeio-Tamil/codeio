@@ -149,6 +149,12 @@
             "epi" : "TCS Digital Advanced Coding | 2nd Maximum String | Daily Dose-25 | Tamil | code io",
             "id" : "43O00J7lsxU",
             "url" : "./super-ascii-checker"
+        },
+        {
+            "name" : "Half Ascending Half Decending, Swap without Temp",
+            "epi" : "TCS Digital - Advanced Coding | 2 in 1 | Half Asc. Half Des. + Swap without temp | Tamil | code io",
+            "id" : "yvLxgSDsMNg",
+            "url" : "./half-ascending-half-decending-swap-withour-temp"
         }
     ]
 }
