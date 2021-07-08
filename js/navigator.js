@@ -32,3 +32,9 @@ $(document).ready(function() {
         }
     });
 });
+
+$(".container").on('swiperight', function() {
+    alert("right");
+}).on('swipeleft', function() {
+    alert("left");
+});
