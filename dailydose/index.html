@@ -254,6 +254,7 @@
                 var err = eval("(" + xhr.responseText + ")");
                 console.log(err.Message);
                 _("loader").style.display = "none";
+                location.replace("../error");
             }
         });
         
