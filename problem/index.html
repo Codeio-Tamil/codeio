@@ -22,6 +22,7 @@
         <script src="../js/jquery.min.js"></script>
         <script src="../js/blocker.js"></script>
         <script src="../js/navigator.js"></script>
+        <link rel="stylesheet" href="../css/progress.css">
     </head>
     <body>
         <div id="drawer" class="sidenav troll-geek-bg shadow">
@@ -60,6 +61,9 @@
             <br>
             <div class="container">
                 <br>
+                <div class="form-inline text-secondary" id="loader" style="display: none;">
+                    <img src="../images/code_anime.gif" width="25" height="25" alt="loading">
+                </div>
                 <div class="row" id="clist">
                     <div class="col-md-3">
                         <a class="card shadow" href="./problems/?c=accolite">
@@ -192,6 +196,9 @@
         $.ajax({
             url : "https://raw.githubusercontent.com/Codeio-Tamil/codeio/main/json/category/stream.json",
             method:"GET",
+            beforeSend:function() {
+                _("loader").style.display = "block";
+            },
             success:function(data) {
                 var cdata = JSON.parse(data);
                 console.log(cdata);
@@ -205,10 +212,12 @@
                         lister += '<div class="col-md-3"><a class="card shadow" href="./category/?c='+ cdata.data[i].segment[j].src +'"><img width="100%" class="img-thumbnail" height="auto" src="' + cdata.data[i].segment[j].img + '"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].segment[j].name + '</div> </a></div>';
                     }
                     lister += '<hr style="color: #fff;">';
+                    _("loader").style.display = "none";
                 }
                 _("clist").innerHTML = lister;
             }, error:function() {
                 console.log("error");
+                _("loader").style.display = "none";
             }
         });
         
