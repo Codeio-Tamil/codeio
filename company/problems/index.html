@@ -27,6 +27,7 @@
         <script src="../../js/back.js"></script>
         <script src="../../js/navigator.js"></script>
         <link rel="stylesheet" href="../../css/cardSpacing.css">
+        <link rel="stylesheet" href="../../css/progress.css">
     </head>
     <body>
         <div id="drawer" class="sidenav troll-geek-bg shadow">
@@ -64,6 +65,9 @@
             </nav>
             <div class="container">
                 <br>
+                <div class="form-inline text-secondary" id="loader" style="display: none;">
+                    <img src="../../images/code_anime.gif" width="25" height="25" alt="loading">
+                </div>
                 <div class="row" id="playlist">
 
                 </div>
@@ -85,6 +89,9 @@
         $.ajax({
             url : "https://raw.githubusercontent.com/Codeio-Tamil/codeio/main/json/" + c + ".json",
             method:"GET",
+            beforeSend:function() {
+                _("loader").style.display = "block";
+            },
             success:function(data) {
                 var cdata = JSON.parse(data);
                 console.log(cdata);
@@ -95,8 +102,10 @@
                     lister += '<div class="col-md-3"><a class="card shadow" href='+ cdata.data[i].url +'><img width="100%" class="img-thumbnail" height="auto" src="https://i1.ytimg.com/vi/' + cdata.data[i].id + '/mqdefault.jpg"> </img> <div class="card-body text-center text-secondary">' + cdata.data[i].name + '</div> </a></div>';
                 }
                 _("playlist").innerHTML = lister;
+                _("loader").style.display = "none";
             }, error:function() {
                 console.log("error");
+                _("loader").style.display = "none";
             }
         });
 
