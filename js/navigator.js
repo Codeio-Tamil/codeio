@@ -33,8 +33,14 @@ $(document).ready(function() {
     });
 });
 
-$(".container").on('swiperight', function() {
-    alert("right");
-}).on('swipeleft', function() {
-    alert("left");
+$(document).on('swiperight', '.container', function() {
+    if (!isDrawerOpen) {
+        openDrawer();
+    }
+});
+
+$(document).on('swipeleft', '.container', function() {
+    if (isDrawerOpen) {
+        openDrawer();
+    }
 });
