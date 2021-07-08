@@ -24,3 +24,11 @@ function openDrawer() {
         isDrawerOpen = false;
     }
 }
+
+$(document).ready(function() {
+    $('.container').click(function() {
+        if (isDrawerOpen) {
+            openDrawer();
+        }
+    });
+});
