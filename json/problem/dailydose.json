@@ -155,6 +155,12 @@
             "epi" : "TCS Digital - Advanced Coding | 2 in 1 | Half Asc. Half Des. + Swap without temp | Tamil | code io",
             "id" : "yvLxgSDsMNg",
             "url" : "./half-ascending-half-decending-swap-withour-temp"
+        },
+        {
+            "name" : "Pangram Strings",
+            "epi" : "TCS Digital - Advanced Coding | Pangram Strings | Daily Dose Ep-27 | Tamil | code io",
+            "id" : "w0TYQ-IYs0Y",
+            "url" : "./panagram-strings"
         }
     ]
 }

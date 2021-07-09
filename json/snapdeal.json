@@ -10,6 +10,11 @@
             "name" : "getMin() - Stack O(1)",
             "url" : "../../dailydose/getmin-stack-order-1",
             "id" : "Yd6jEMJSQ8M"
+        },
+        {
+            "name" : "Pangram Strings",
+            "id" : "w0TYQ-IYs0Y",
+            "url" : "../../dailydose/panagram-strings"
         }
     ]
 }

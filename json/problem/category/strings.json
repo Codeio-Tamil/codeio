@@ -35,6 +35,11 @@
             "name" : "2nd Maximum String",
             "id" : "43O00J7lsxU",
             "url" : "../../dailydose/super-ascii-checker"
+        },
+        {
+            "name" : "Pangram Strings",
+            "id" : "w0TYQ-IYs0Y",
+            "url" : "../../dailydose/panagram-strings"
         }
     ]
 }
