@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            code io
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "icon" href ="../../images/Round_icon.png" type = "image/x-icon">
+        
+        <link rel="stylesheet" href="../../css/navigationbar.css">
+        <!--Bootstrap files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../../codemirror-5.60.0/lib/codemirror.js"></script>
+        <script src="../../codemirror-5.60.0/mode/clike/clike.js"></script>
+        <link rel="stylesheet" href="../../codemirror-5.60.0/lib/codemirror.css">
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/blocker.js"></script>
+        <script src="../../js/navigator.js"></script>
+        <script src="../../js/search.js"></script>
+        <script src="../../js/back.js"></script>
+        <link rel="stylesheet" href="../css/progress.css">
+        <link rel="stylesheet" href="../../css/dailydose.css">
+        <link rel="stylesheet" href="../../css/cardtop.css">
+        <link rel="stylesheet" href="../../css/colors.css">
+    </head>
+    <body>
+        <div id="drawer" class="sidenav troll-geek-bg shadow">
+            <span class="opener" onclick="openDrawer()"><i class="fa fa-bars open-btn" id="opn"></i><i class="fa fa-bars fa-rotate-90" id="cls" style="display: none;"></i></span>
+            <ul class="nav flex-column">
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href="../../"><i class="icons fa fa-home"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href="../../youtube/"><i class="icons fa fa-tv"></i>Youtube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href=""><i class="icons fa fa-star"></i>C Apti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href="../../dailydose/"><i class="icons fa fa-calendar"></i>Daily Dose</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href="../../archive/"><i class="icons fa fa-database"></i>Archive</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link ylink" href="../../aboutUs/"><i class="icons fa fa-info"></i>About Us</a>
+                </li>
+            </ul>
+        </div>
+        <div id="main" class="main">
+            <nav class="navbar navbar-expand-lg navbar-light troll-geek-bg fixed-top">
+                <span class="opener" onclick="goBack()"><i class="fa fa-arrow-left" id="opn"></i><i class="fa fa-bars fa-rotate-90" id="cls" style="display: none;"></i></span>
+                
+            </nav>
+            <br>
+            <div class="container">
+
+                <br>
+                <h4>Video Title</h4>
+                <hr>
+
+                <div class="card shadow">
+                    <div class="embed-responsive embed-responsive-16by9 laptop">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/43O00J7lsxU?autoplay=0" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=43O00J7lsxU" class="mobile covered">
+                        <div class="mobile image">
+                            <img width="100%" class="img-thumbnail border-0" height="auto" src="https://i1.ytimg.com/vi/43O00J7lsxU/mqdefault.jpg"> </img>
+                        </div>
+                        <div class="cover">
+                            <img class="cover-me" width="75" height="75" src="../../images/youtube.png"> </img>
+                        </div>
+                    </a>
+                </div>
+
+                <br>
+                <hr>
+
+                <!-------------------------------------------- Question 1 ---------------------------------------------------->
+
+                <div class="card">
+                    <div class="card-body">
+<textarea class="form-control" id="exampleTextarea1">
+    #include<stdio.h>
+    int main() {
+        int n;
+        cin>>n;
+        cout<<n;
+        return 0;
+    }
+</textarea>
+                        <hr>
+                        <h6>Question 1</h6>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q11" name="q1" type="radio" checked>
+                                            <label for="q11" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body bg-red">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q12" name="q1" type="radio" checked>
+                                            <label for="q12" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: block;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body bg-green">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q13" name="q1" type="radio" checked>
+                                            <label for="q13" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: block;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q14" name="q1" type="radio" checked>
+                                            <label for="q14" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <strong>Explaination : </strong><br>
+                        <p>Explaination for question qoes here</p>
+                    </div>
+                </div>
+                <br>
+
+                <!-------------------------------------------- Question 2 ----------------------------------------------------> 
+
+                <div class="card">
+                    <div class="card-body">
+<textarea class="form-control" id="exampleTextarea2">
+    #include<stdio.h>
+    int main() {
+        int n;
+        cin>>n;
+        cout<<n;
+        return 0;
+    }
+</textarea>
+                    <hr>
+                        <h6>Question 2</h6>
+                        <div class="card card-top">
+                            <div class="card-body bg-green">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q21" name="q2" type="radio" checked>
+                                            <label for="q21" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: block;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q22" name="q2" type="radio" checked>
+                                            <label for="q22" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q23" name="q2" type="radio" checked>
+                                            <label for="q23" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body bg-red">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q24" name="q2" type="radio" checked>
+                                            <label for="q24" class="form-check-label">
+                                                5 7
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: block;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <strong>Explaination : </strong><br>
+                        <p>Explaination for question qoes here</p>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <a class="col text-start text-secondary" href="../super-ascii-checker/">
+                        <i class="fa fa-angle-left font-size"></i>
+                        <label class="font-size">Previous</label>
+                    </a>
+                    <a class="col text-end text-secondary" href="../half-ascending-half-decending-swap-withour-temp/">
+                        <label class="font-size">Next</label>
+                        <i class="fa fa-angle-right font-size"></i>
+                    </a>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <br>
+    </body>
+    <script>
+        var config, editor;
+
+        config = {                  
+            lineNumbers: true,
+            mode: "text/x-c++src",
+            lineWrapping: true,
+            htmlMode: true,
+            matchClosing: true,       
+            indentWithTabs: true,
+            readOnly: true
+        };
+
+
+        editor1 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea1"), config);
+        editor1.setSize("100%","100%");
+        editor2 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea2"), config);
+        editor2.setSize("100%","100%");
+    </script>
+</html>
