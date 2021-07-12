@@ -225,7 +225,8 @@
                 var code1 = editor1.getValue();
                 var code2 = editor2.getValue();
 
-                var urldata = atitle.split(' ').join('-');
+                var actualUrl = atitle.toLowerCase();
+                var urldata = actualUrl.split(' ').join('-');
 
                 var obj = new Object();
                 obj = {
@@ -240,7 +241,8 @@
                     "option3" : option13,
                     "option4" : option14,
                     "answer" : answer1,
-                    "code" : code1
+                    "code" : code1,
+                    "exp" : explaination1
                 };
 
                 obj.question2 = {
@@ -249,7 +251,8 @@
                     "option3" : option23,
                     "option4" : option24,
                     "answer" : answer2,
-                    "code" : code2
+                    "code" : code2,
+                    "exp" : explaination2
                 };
 
                 var jsonstring = JSON.stringify(obj);

@@ -71,16 +71,16 @@
                     <img src="../../images/code_anime.gif" width="25" height="25" alt="loading">
                 </div>
 
-                <h4>Video Title</h4>
+                <h4 id="title">Video Title</h4>
                 <hr>
 
                 <div class="card shadow">
                     <div class="embed-responsive embed-responsive-16by9 laptop">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/43O00J7lsxU?autoplay=0" allowfullscreen></iframe>
+                        <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/43O00J7lsxU?autoplay=0" allowfullscreen></iframe>
                     </div>
-                    <a href="https://www.youtube.com/watch?v=43O00J7lsxU" class="mobile covered">
+                    <a id="link" href="https://www.youtube.com/watch?v=43O00J7lsxU" class="mobile covered">
                         <div class="mobile image">
-                            <img width="100%" class="img-thumbnail border-0" height="auto" src="https://i1.ytimg.com/vi/43O00J7lsxU/mqdefault.jpg"> </img>
+                            <img id="thumbnail" width="100%" class="img-thumbnail border-0" height="auto" src="https://i1.ytimg.com/vi/43O00J7lsxU/mqdefault.jpg"> </img>
                         </div>
                         <div class="cover">
                             <img class="cover-me" width="75" height="75" src="../../images/youtube.png"> </img>
@@ -98,14 +98,7 @@
                         <h6>Question 1</h6>
                     </div>
                     <div class="card-body">
-<textarea class="form-control" id="exampleTextarea1">
-    #include<stdio.h>
-    int main() {
-        int n;
-        cin>>n;
-        cout<<n;
-        return 0;
-    }
+<textarea class="form-control" id="code1">
 </textarea>
                         <hr>
                         <div class="card card-top">
@@ -113,50 +106,14 @@
                                 <div class="row">
                                     <div class="col-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" id="q11" name="q1" type="radio" checked>
-                                            <label for="q11" class="form-check-label">
-                                                5 7
+                                            <input class="form-check-input" id="q11" name="q1" type="radio">
+                                            <label for="q11" id="lq11" class="form-check-label">
+                                                ..
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-2 text-center">
                                         <i class="fa fa-check text-success" style="display: none;"></i>
-                                        <i class="fa fa-times text-danger" style="display: none;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-top">
-                            <div class="card-body bg-red">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <div class="form-check">
-                                            <input class="form-check-input" id="q12" name="q1" type="radio" checked>
-                                            <label for="q12" class="form-check-label">
-                                                5 7
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-2 text-center">
-                                        <i class="fa fa-check text-success" style="display: none;"></i>
-                                        <i class="fa fa-times text-danger" style="display: block;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-top">
-                            <div class="card-body bg-green">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <div class="form-check">
-                                            <input class="form-check-input" id="q13" name="q1" type="radio" checked>
-                                            <label for="q13" class="form-check-label">
-                                                5 7
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-2 text-center">
-                                        <i class="fa fa-check text-success" style="display: block;"></i>
                                         <i class="fa fa-times text-danger" style="display: none;"></i>
                                     </div>
                                 </div>
@@ -167,9 +124,45 @@
                                 <div class="row">
                                     <div class="col-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" id="q14" name="q1" type="radio" checked>
-                                            <label for="q14" class="form-check-label">
-                                                5 7
+                                            <input class="form-check-input" id="q12" name="q1" type="radio">
+                                            <label for="q12" id="lq12" class="form-check-label">
+                                                ..
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q13" name="q1" type="radio">
+                                            <label for="q13" id="lq13" class="form-check-label">
+                                                ..
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q14" name="q1" type="radio">
+                                            <label for="q14" id="lq14" class="form-check-label">
+                                                ..
                                             </label>
                                         </div>
                                     </div>
@@ -183,7 +176,7 @@
                     </div>
                     <div class="card-footer bg-transparent">
                         <strong>Explaination : </strong><br>
-                        <p>Explaination for question qoes here</p>
+                        <p id="explaination1">Explaination for question qoes here</p>
                     </div>
                 </div>
                 <br>
@@ -195,42 +188,17 @@
                         <h6>Question 2</h6>
                     </div>
                     <div class="card-body">
-<textarea class="form-control" id="exampleTextarea2">
-    #include<stdio.h>
-    int main() {
-        int n;
-        cin>>n;
-        cout<<n;
-        return 0;
-    }
+<textarea class="form-control" id="code2">
 </textarea>
                     <hr>
                         <div class="card card-top">
-                            <div class="card-body bg-green">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <div class="form-check">
-                                            <input class="form-check-input" id="q21" name="q2" type="radio" checked>
-                                            <label for="q21" class="form-check-label">
-                                                5 7
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-2 text-center">
-                                        <i class="fa fa-check text-success" style="display: block;"></i>
-                                        <i class="fa fa-times text-danger" style="display: none;"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-top">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" id="q22" name="q2" type="radio" checked>
-                                            <label for="q22" class="form-check-label">
-                                                5 7
+                                            <input class="form-check-input" id="q21" name="q2" type="radio">
+                                            <label for="q21" id="lq21" class="form-check-label">
+                                                ..
                                             </label>
                                         </div>
                                     </div>
@@ -246,9 +214,9 @@
                                 <div class="row">
                                     <div class="col-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" id="q23" name="q2" type="radio" checked>
-                                            <label for="q23" class="form-check-label">
-                                                5 7
+                                            <input class="form-check-input" id="q22" name="q2" type="radio">
+                                            <label for="q22" id="lq22" class="form-check-label">
+                                                ..
                                             </label>
                                         </div>
                                     </div>
@@ -260,19 +228,37 @@
                             </div>
                         </div>
                         <div class="card card-top">
-                            <div class="card-body bg-red">
+                            <div class="card-body">
                                 <div class="row">
                                     <div class="col-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" id="q24" name="q2" type="radio" checked>
-                                            <label for="q24" class="form-check-label">
-                                                5 7
+                                            <input class="form-check-input" id="q23" name="q2" type="radio">
+                                            <label for="q23" id="lq23" class="form-check-label">
+                                                ..
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-2 text-center">
                                         <i class="fa fa-check text-success" style="display: none;"></i>
-                                        <i class="fa fa-times text-danger" style="display: block;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-top">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" id="q24" name="q2" type="radio">
+                                            <label for="q24" id="lq24" class="form-check-label">
+                                                ..
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <i class="fa fa-check text-success" style="display: none;"></i>
+                                        <i class="fa fa-times text-danger" style="display: none;"></i>
                                     </div>
                                 </div>
                             </div>
@@ -280,25 +266,12 @@
                     </div>
                     <div class="card-footer bg-transparent">
                         <strong>Explaination : </strong><br>
-                        <p>Explaination for question qoes here</p>
+                        <p id="explaination2">Explaination for question qoes here</p>
                     </div>
                 </div>
 
             </div>
             <br>
-            <div class="container">
-                <hr>
-                <div class="row">
-                    <a class="col text-start text-secondary" href="../super-ascii-checker/">
-                        <i class="fa fa-angle-left font-size"></i>
-                        <label class="font-size">Previous</label>
-                    </a>
-                    <a class="col text-end text-secondary" href="../half-ascending-half-decending-swap-withour-temp/">
-                        <label class="font-size">Next</label>
-                        <i class="fa fa-angle-right font-size"></i>
-                    </a>
-                </div>
-            </div>
             <br><br>
         </div>
         <br>
@@ -317,9 +290,9 @@
         };
 
 
-        editor1 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea1"), config);
+        editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), config);
         editor1.setSize("100%","100%");
-        editor2 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea2"), config);
+        editor2 = CodeMirror.fromTextArea(document.getElementById("code2"), config);
         editor2.setSize("100%","100%");
 
 
@@ -343,6 +316,36 @@
                 var cdata = JSON.parse(data);
                 console.log(cdata);
                 var len = cdata.data.length;
+
+                for (var i=0; i<len; i++) {
+                    if (p == cdata.data[i].url) {
+                        
+                        _("title").innerHTML = cdata.data[i].title;
+
+                        //linking vide and id are pending
+                        _("link").href = "https://www.youtube.com/watch?v=" + cdata.data[i].id;
+                        _("video").src = "https://www.youtube.com/embed/" + cdata.data[i].id + "?autoplay=0";
+                        _("thumbnail").src = "https://i1.ytimg.com/vi/" + cdata.data[i].id + "/mqdefault.jpg";
+                        //question 1
+                        editor1.doc.replaceSelection(cdata.data[i].question1.code);
+                        _("lq11").innerHTML = cdata.data[i].question1.option1;
+                        _("lq12").innerHTML = cdata.data[i].question1.option2;
+                        _("lq13").innerHTML = cdata.data[i].question1.option3;
+                        _("lq14").innerHTML = cdata.data[i].question1.option4;
+                        _("explaination1").innerHTML = cdata.data[i].question1.exp;
+                        //question 2
+                        editor2.doc.replaceSelection(cdata.data[i].question2.code);
+                        _("lq21").innerHTML = cdata.data[i].question2.option1;
+                        _("lq22").innerHTML = cdata.data[i].question2.option2;
+                        _("lq23").innerHTML = cdata.data[i].question2.option3;
+                        _("lq24").innerHTML = cdata.data[i].question2.option4;
+                        _("explaination2").innerHTML = cdata.data[i].question2.exp;
+
+                        break;
+                    }
+                }
+
+                _("loader").style.display = "none";
                 
             }, error:function() {
                 console.log("error");
