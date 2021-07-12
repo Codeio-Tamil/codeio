@@ -1,0 +1,5 @@
+{
+    "data" : [
+        {"id":"f-OCy_KlFIc","title":"looping problems","url":"looping-problems","question1":{"option1":"034291","option2":"8907 ","option3":"697","option4":"875","answer":"1","code":"int main()\n{\n for(int n=7; n != 0; n--)\n printf(\"n = %d\", n--);\n getchar();\n return 0;\n}"},"question2":{"option1":"fqef","option2":"324","option3":"4321","option4":"1342","answer":"3","code":"int main()\n{\n for(int n=7; n != 0; n--)\n printf(\"n = %d\", n--);\n getchar();\n return 0;\n}"}}
+    ]
+}

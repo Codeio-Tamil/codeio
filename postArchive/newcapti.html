@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            code io
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "icon" href ="../images/Round_icon.png" type = "image/x-icon">
+        
+        <link rel="stylesheet" href="../css/navigationbar.css">
+        <!--Bootstrap files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../js/jquery.min.js"></script>
+
+        <script src="../codemirror-5.60.0/lib/codemirror.js"></script>
+        <script src="../codemirror-5.60.0/mode/clike/clike.js"></script>
+        <link rel="stylesheet" href="../codemirror-5.60.0/lib/codemirror.css">
+        
+        <script src="../js/navigator.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row rows-md-1">
+                <div class="col">
+
+
+                    <div class="mb-3">
+                        <label for="videoid" class="form-label">Youtube Video Id <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="videoid" oninput="displayThumbnail()" placeholder="Ex: xErUnOKQbFw">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="aptiTitle" class="form-label">C Aptitude Title<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="aptiTitle" placeholder="Pointer++">
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header bg-transparent">
+                            <h6>Question 1</h6>
+                        </div>
+                        <div class="card-body">
+<textarea class="form-control" id="exampleTextarea1">
+//code here
+</textarea>
+                            <br>
+                            <div class="mb-3">
+                                <label for="option11" class="form-label">Question 1 - Option 1<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option11" placeholder="Ex: Option 1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option12" class="form-label">Question 1 - Option 2<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option12" placeholder="Ex: Option 2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option13" class="form-label">Question 1 - Option 3<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option13" placeholder="Ex: Option 3">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option14" class="form-label">Question 1 - Option 4<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option14" placeholder="Ex: Option 4">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="answer1" class="form-label">Question 1 - Answer<span class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="answer1" min="1" max="4" placeholder="1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="explaination1" class="form-label">Question 1 - Explaination<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="explaination1" placeholder="Explaination for question 1">
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-header bg-transparent">
+                            <h6>Question 2</h6>
+                        </div>
+                        <div class="card-body">
+<textarea class="form-control" id="exampleTextarea2">
+//code here
+</textarea>
+                            <br>
+                            <div class="mb-3">
+                                <label for="option21" class="form-label">Question 2 - Option 1<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option21" placeholder="Ex: Option 1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option22" class="form-label">Question 2 - Option 2<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option22" placeholder="Ex: Option 2">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option23" class="form-label">Question 2 - Option 3<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option23" placeholder="Ex: Option 3">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="option24" class="form-label">Question 2 - Option 4<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="option24" placeholder="Ex: Option 4">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="answer2" class="form-label">Question 2 - Answer<span class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="answer2" min="1" max="4" placeholder="1">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="explaination2" class="form-label">Question 2 - Explaination<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="explaination2" placeholder="Explaination for question 1">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col text-center">
+                    <img id="thumbnail" class="shadow img-thumbnail" src="../images/code.io-2.png" style="height: 175px;" alt="">
+
+                    <br><br><br>
+                    <button class="btn btn-sm btn-outline-success" onclick="generateJSON()">Generate JSON</button>
+                    <hr>
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Status</label>
+                        <input type="text" class="form-control bg-transparent" id="status" placeholder="Status goes here" readonly>
+                    </div>
+                    <hr>
+                    <h6>JSON Data</h6>
+                    <div id="jsondata"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </body>
+    <script>
+        var config, editor;
+
+        config = {                  
+            lineNumbers: true,
+            mode: "text/x-c++src",
+            lineWrapping: true,
+            htmlMode: true,
+            matchClosing: true,       
+            indentWithTabs: true
+        };
+
+
+        editor1 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea1"), config);
+        editor1.setSize("100%","100%");
+        editor2 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea2"), config);
+        editor2.setSize("100%","100%");
+
+
+
+        function _(el) {
+            return document.getElementById(el);
+        }
+
+        var videoId, atitle, option11, option12, option13, option14, answer1, explaination1, option21, option22, option23, option24, answer2, explaination2;
+
+        function isEmpty(str) {
+            return (str == "" || str.length == 0); 
+        }
+
+        function isInputValid() {
+            videoId = _("videoid").value;
+            atitle = _("aptiTitle").value;
+            option11 = _("option11").value;
+            option12 = _("option12").value;
+            option13 = _("option13").value;
+            option14 = _("option14").value;
+            answer1 = _("answer1").value;
+            explaination1 = _("explaination1").value;
+            option21 = _("option21").value;
+            option22 = _("option22").value;
+            option23 = _("option23").value;
+            option24 = _("option24").value;
+            answer2 = _("answer2").value;
+            explaination2 = _("explaination2").value;
+
+            if (isEmpty(videoId) || isEmpty(atitle)) {
+                return false;
+            }
+
+            if (isEmpty(option11) || isEmpty(option12) || isEmpty(option13) || isEmpty(option14) || isEmpty(answer1) || isEmpty(explaination1)) {
+                return false;
+            }
+
+            if (isEmpty(option21) || isEmpty(option22) || isEmpty(option23) || isEmpty(option24) || isEmpty(answer2) || isEmpty(explaination2)) {
+                return false;
+            }
+
+
+            return true;
+        }
+
+        function setError(str) {
+            _("status").value = str;
+        }
+
+        function displayThumbnail() {
+            var id = _("videoid").value;
+            if (!isEmpty(id)) {
+                _("thumbnail").src = "https://i1.ytimg.com/vi/" + id + "/mqdefault.jpg";
+            }
+        }
+
+        function generateJSON() {
+            
+            if (isInputValid()) {
+                var code1 = editor1.getValue();
+                var code2 = editor2.getValue();
+
+                var urldata = atitle.split(' ').join('-');
+
+                var obj = new Object();
+                obj = {
+                    "id" : videoId,
+                    "title" : atitle,
+                    "url" : urldata
+                };
+
+                obj.question1 = {
+                    "option1" : option11,
+                    "option2" : option12,
+                    "option3" : option13,
+                    "option4" : option14,
+                    "answer" : answer1,
+                    "code" : code1
+                };
+
+                obj.question2 = {
+                    "option1" : option21,
+                    "option2" : option22,
+                    "option3" : option23,
+                    "option4" : option24,
+                    "answer" : answer2,
+                    "code" : code2
+                };
+
+                var jsonstring = JSON.stringify(obj);
+
+                _("jsondata").innerHTML = jsonstring;
+                setError("JSON created Successfully");
+
+            } else {
+                setError("Missing mandatory fields");
+            }
+        }
+
+    </script>
+</html>

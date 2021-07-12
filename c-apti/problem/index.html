@@ -23,7 +23,6 @@
         <script src="../../codemirror-5.60.0/mode/clike/clike.js"></script>
         <link rel="stylesheet" href="../../codemirror-5.60.0/lib/codemirror.css">
         <script src="../../js/jquery.min.js"></script>
-        <script src="../../js/blocker.js"></script>
         <script src="../../js/navigator.js"></script>
         <script src="../../js/search.js"></script>
         <script src="../../js/back.js"></script>
@@ -67,6 +66,11 @@
             <div class="container">
 
                 <br>
+
+                <div class="form-inline text-secondary" id="loader" style="display: none;">
+                    <img src="../../images/code_anime.gif" width="25" height="25" alt="loading">
+                </div>
+
                 <h4>Video Title</h4>
                 <hr>
 
@@ -317,5 +321,35 @@
         editor1.setSize("100%","100%");
         editor2 = CodeMirror.fromTextArea(document.getElementById("exampleTextarea2"), config);
         editor2.setSize("100%","100%");
+
+
+        function _(el) {
+            return document.getElementById(el);
+        }
+
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var p = url.searchParams.get("p");
+
+        console.log(p);
+
+        $.ajax({
+            url : "https://raw.githubusercontent.com/Codeio-Tamil/codeio/main/json/c-apti/data.json",
+            method:"GET",
+            beforeSend:function() {
+                _("loader").style.display = "block";
+            },
+            success:function(data) {
+                var cdata = JSON.parse(data);
+                console.log(cdata);
+                var len = cdata.data.length;
+                
+            }, error:function() {
+                console.log("error");
+                _("loader").style.display = "none";
+                location.replace("../../error");
+            }
+        });
+
     </script>
 </html>
